@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(to top, #0b3574, #222b67, #2c2259, #30184c, #310f3e);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-container {
+    box-shadow: 5px 5px 10px 10px #100f5f;
+    overflow: scroll;
+    max-width: 1080px;
+    height: 100%;
+}
+
+.col-container {
+    background-color: #0b3574;
+}
+
+.button-container {
+    text-align: right;
+    margin-right: 20px;
+}
